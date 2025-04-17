@@ -7,8 +7,8 @@ export const PokemonList = (props:{data:Pokemon[]}) => {
   return (
     <>
       <ul className={classes.list}>
-          {props.data.map((x,id)=>{
-            return <PokemonItem key={id} name={x.name} id={id}/>
+          {props.data.map((pokemon,id)=>{
+            return <PokemonItem key={id} name={pokemon.name} id={id}/>
           })}
       </ul>
       <div className="controls">

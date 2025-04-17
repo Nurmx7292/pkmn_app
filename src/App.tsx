@@ -18,7 +18,6 @@ export const App = () => {
       console.log(error)
     }
   },[])
-  console.log(pokemons)
   return (
     <div>
       <Header/>
