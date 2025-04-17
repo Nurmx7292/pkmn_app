@@ -12,6 +12,7 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@hugeicons/react": "^1.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
