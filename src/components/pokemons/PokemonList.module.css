@@ -1,9 +1,0 @@
-.list{
-    box-shadow: 2px 3px 2px;
-    display: flex;
-    width: 600px;
-    flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.088);
-    gap: 20px;
-    padding: 30px;
-}
