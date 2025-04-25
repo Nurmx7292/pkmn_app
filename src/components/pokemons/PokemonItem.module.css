@@ -1,5 +1,21 @@
-.item{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
+.item {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  margin: 12px 0;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.item:hover {
+  box-shadow: 0 4px 16px rgba(99,102,241,0.16);
+}
+
+.controls {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
 }

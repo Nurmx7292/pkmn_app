@@ -2,7 +2,9 @@ import { Header } from "./components/header/Header"
 import "./App.css"
 import { useEffect, useState } from "react"
 import { Pokemon } from "./types"
-import { PokemonList } from "./components/pokemons/PokemonList"
+import { PokemonList } from "./screens/PokemonList/PokemonList"
+import PokemonDetails from "./screens/PokemonDetails/PokemonDetails"
+
 export const App = () => {
   let [pokemons,setPokemons] = useState<Pokemon[]>([])
   async function fetchPokemons(){
@@ -22,6 +24,7 @@ export const App = () => {
     <div>
       <Header/>
       <PokemonList data={pokemons}/>
+      <PokemonDetails />
     </div>
   )
 }

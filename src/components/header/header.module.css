@@ -1,8 +1,23 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(255, 255, 0, 0.689);
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(90deg, #facc15 0%, #fbbf24 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0 32px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #373737;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 #fff7ae;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
 }
