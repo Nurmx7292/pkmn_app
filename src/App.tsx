@@ -4,6 +4,8 @@ import { useEffect, useState } from "react"
 import { Pokemon } from "./types"
 import { PokemonList } from "./screens/PokemonList/PokemonList"
 import PokemonDetails from "./screens/PokemonDetails/PokemonDetails"
+import { ComparePokemons } from "./screens/ComparePokemons"
+import { FavoritePokemons } from "./screens/FavoritePokemons"
 
 export const App = () => {
   let [pokemons,setPokemons] = useState<Pokemon[]>([])
@@ -23,8 +25,10 @@ export const App = () => {
   return (
     <div>
       <Header/>
-      <PokemonList data={pokemons}/>
-      <PokemonDetails />
+      {/* <PokemonList data={pokemons}/> */}
+      {/* <PokemonDetails /> */}
+      <ComparePokemons/>
+      {/* <FavoritePokemons/> */}
     </div>
   )
 }
