@@ -1,5 +1,4 @@
 import React from 'react'
-import { Pokemon } from '../../types'
 import classes from "./PokemonItem.module.css"
 export const PokemonItem = (props:{id:number,name:string, favoriteButtonLabel?: string}) => {
   return (
